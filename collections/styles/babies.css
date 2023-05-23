@@ -103,6 +103,7 @@ nav #menu-desplegable {
 	top: 0;
 	background-color: var(--white);
 	transition: 0.5s ease all;
+	z-index: 2;
 }
 
 nav #menu-desplegable li {
