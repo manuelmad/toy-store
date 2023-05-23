@@ -50,13 +50,15 @@ header nav {
 	color: var(--black);
 	width: 3rem;
 	height: 3rem;
-	/* margin-right: 2rem; */
+}
+
+#search_icon-container span {
+	margin-left: 1rem;
 }
 
 .search-icon  {
 	width: 2.5rem;
 	height: 2.5rem;
-	margin-left: 2rem;
 }
 
 .user-icon {
@@ -68,7 +70,6 @@ header nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* text-align: center; */
 }
 
 header > div img {
@@ -80,39 +81,29 @@ header .contact-cart-container {
 	display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 1rem;
+}
+
+.contact-cart-container span:nth-child(2) {
+	padding-right: 1rem;
+
 }
 
 .purse-icon {
 	width: 2.5rem;
 	height: 2.5rem;
-	margin-left: 2rem;
+	margin-left: 1rem;
 }
-
-
-/*.container__icono-menu {
-	position: relative;
-	/*right: 0;
-}*/
 
 nav #menu-desplegable {
     position: absolute;
     height: 100vh;
 	list-style: none;
-    /* visibility: hidden; */
 	font-size: var(--sm);
 	left: -28rem;
 	top: 0;
 	background-color: var(--white);
-    /*border: 0.1rem solid var(--white);*/
 	transition: 0.5s ease all;
 }
-
-/* .container__icono-menu:hover > #menu-desplegable {
-	visibility: visible;
-	left: 0rem;
-	position: fixed;
-} */
 
 nav #menu-desplegable li {
 	line-height: 3rem;
@@ -125,12 +116,6 @@ nav #menu-desplegable .first-item {
 	padding: 1rem;
 	text-align: end;
 }
-
-/* #close-menu-x .bi-x-lg:hover > #menu-desplegable {
-	visibility: hidden;
-	left: -15rem;
-	position: static;
-} */
 
 nav #menu-desplegable li:last-child {
 	margin-bottom: 0;

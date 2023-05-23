@@ -19,8 +19,8 @@ header .contact-cart-container {
     padding-right: 6rem;
 }
 
-.user-icon {
-	margin-right: 2rem;
+.contact-cart-container span:nth-child(2) {
+	margin-left: 2rem;
 }
 
 .hero {

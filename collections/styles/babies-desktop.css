@@ -17,9 +17,94 @@ header {
 display: none;
 }
 
+#search_icon-container span {
+	background-color: var(--dark-pink);
+}
+
+#search_icon-container span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 2rem;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 2rem;
+}
+
+.search-icon  {
+	width: 2rem;
+	height: 2rem;
+	color: var(--white);
+	font-weight: bold;
+}
+
+.contact-cart-container span:first-child {
+	background-color: var(--dark-pink);
+}
+
+.contact-cart-container span:first-child {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 2rem;
+}
+
+.user-icon {
+	width: 2rem;
+	height: 2rem;
+	color: var(--white);
+	font-weight: bold;
+}
+
+.contact-cart-container span:nth-child(2) {
+	background-color: var(--dark-pink);
+}
+
+.contact-cart-container span:nth-child(2) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 2rem;
+}
+
+.purse-icon {
+	width: 2rem;
+	height: 2rem;
+	color: var(--white);
+	font-weight: bold;
+}
+
 .nav-menu-principal {
 	visibility: visible;
     width: 70rem;
 	top: 9.5rem;
     z-index: 1;
+}
+
+.babies-container {
+	padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.babies {
+	max-width: 90rem;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.babies-product {
+	width: 25rem;
+}
+
+.babies-product img {
+	width: 22rem;
+	height: 22rem;
+}
+
+.babies-product p {
+	font-size: var(--md);
 }

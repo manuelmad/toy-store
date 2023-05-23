@@ -7,7 +7,8 @@
 html {
     font-size: 62.5%;
     font-family: 'Quicksand', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Nunito', sans-serif;
     position: relative;
 }
 
@@ -49,13 +50,15 @@ header nav {
 	color: var(--black);
 	width: 3rem;
 	height: 3rem;
-	/* margin-right: 2rem; */
+}
+
+#search_icon-container span {
+	margin-left: 1rem;
 }
 
 .search-icon  {
 	width: 2.5rem;
 	height: 2.5rem;
-	margin-left: 2rem;
 }
 
 .user-icon {
@@ -67,7 +70,6 @@ header nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* text-align: center; */
 }
 
 header > div img {
@@ -79,39 +81,29 @@ header .contact-cart-container {
 	display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 1rem;
+}
+
+.contact-cart-container span:nth-child(2) {
+	padding-right: 1rem;
+
 }
 
 .purse-icon {
 	width: 2.5rem;
 	height: 2.5rem;
-	margin-left: 2rem;
+	margin-left: 1rem;
 }
-
-
-/*.container__icono-menu {
-	position: relative;
-	/*right: 0;
-}*/
 
 nav #menu-desplegable {
     position: absolute;
     height: 100vh;
 	list-style: none;
-    /* visibility: hidden; */
 	font-size: var(--sm);
 	left: -28rem;
 	top: 0;
 	background-color: var(--white);
-    /*border: 0.1rem solid var(--white);*/
 	transition: 0.5s ease all;
 }
-
-/* .container__icono-menu:hover > #menu-desplegable {
-	visibility: visible;
-	left: 0rem;
-	position: fixed;
-} */
 
 nav #menu-desplegable li {
 	line-height: 3rem;
@@ -124,12 +116,6 @@ nav #menu-desplegable .first-item {
 	padding: 1rem;
 	text-align: end;
 }
-
-/* #close-menu-x .bi-x-lg:hover > #menu-desplegable {
-	visibility: hidden;
-	left: -15rem;
-	position: static;
-} */
 
 nav #menu-desplegable li:last-child {
 	margin-bottom: 0;
@@ -236,36 +222,43 @@ main {
 
 .babies-container {
     width: 100%;
+    min-height: 80rem;
     background-color: var(--light-gray);
     padding: 4rem 0 4rem;
 }
 
 .babies-container h2 {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	text-align: center;
+	font-size: var(--lg);
+	font-weight: 900;
 }
 
 .babies {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+	max-width: 50rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
 }
 
 .babies-product {
-    background-color: var(--white);
-    width: 15rem;
-    margin-top: 1rem;
-    border-radius: 0.5rem;
-    text-align: center;
-    padding: 2rem 1rem 2rem;
+	background-color: var(--white);
+	width: 13rem;
+	margin-top: 1rem;
+	border-radius: 1rem;
+	text-align: center;
+	padding: 2rem 1rem 2rem;
 }
 
 .babies-product img {
-    width: 12rem;
-    height: 12rem;
-    border-radius: 0.5rem;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 0.5rem;
+}
+
+.babies-product p {
+	font-size: var(--ss);
+	font-weight: bold;
 }
 
 .babies-product__price {

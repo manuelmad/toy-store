@@ -19,6 +19,24 @@ header .contact-cart-container {
     padding-right: 6rem;
 }
 
-.user-icon {
-	margin-right: 2rem;
+.contact-cart-container span:nth-child(2) {
+	margin-left: 2rem;
+}
+
+.babies {
+	max-width: 60rem;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.babies-product {
+	width: 18rem;
+}
+
+.babies-product img {
+	width: 15rem;
+	height: 15rem;
+}
+
+.babies-product p {
+	font-size: var(--sm);
 }
