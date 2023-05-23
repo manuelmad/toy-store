@@ -1,0 +1,95 @@
+
+header {
+    height: 12rem;
+    position: static;
+}
+
+.header {
+    transition: none;
+}
+.scroll-down .header {
+    transform: none;
+}
+.scroll-up .header {
+    transform: none;
+}
+
+.bi-list {
+display: none;
+}
+
+.nav-menu-principal {
+	visibility: visible;
+    width: 70rem;
+	top: 9.5rem;
+    z-index: 1;
+}
+
+.hero {
+	min-height: 80rem;
+}
+
+.welcome p:first-child {
+	font-size: var(--lg);
+	padding: 1rem;
+	background-color: var(--dark-pink);
+	color: var(--white);
+	border-radius: 0.8rem;
+	width: 30rem;
+	text-align: center;
+}
+
+.welcome h2 {
+	font-size: 4.5rem;
+}
+
+.hidden-p {
+	display: block;
+	font-size: var(--lg);
+}
+
+.collections-container {
+    max-width: 100rem;
+	margin: 8rem auto 0;
+}
+
+.collections {
+	max-width: 100rem;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.trends {
+	padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.trending-products__container {
+	max-width: 90rem;
+    gap: 2rem;
+}
+
+.trending-product {
+	width: 25rem;
+}
+
+.trending-product img {
+	width: 22rem;
+	height: 22rem;
+}
+
+.trending-product p {
+	font-size: var(--md);
+}
+
+.about-us {
+    padding-top: 8rem;
+}
+
+.social-media__container {
+    padding-bottom: 8rem;
+}
+
+footer .pay-methods {
+	padding-top: 8rem;
+    padding-bottom: 8rem;
+}

@@ -1,0 +1,25 @@
+header {
+    height: 12rem;
+    position: static;
+}
+
+.header {
+    transition: none;
+}
+.scroll-down .header {
+    transform: none;
+}
+.scroll-up .header {
+    transform: none;
+}
+
+.bi-list {
+display: none;
+}
+
+.nav-menu-principal {
+	visibility: visible;
+    width: 70rem;
+	top: 9.5rem;
+    z-index: 1;
+}

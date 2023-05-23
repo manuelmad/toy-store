@@ -1,0 +1,141 @@
+header {
+    height: 10rem;
+}
+
+header nav {
+	padding-left: 6rem;
+}
+
+header > div img {
+    width: 22.53rem;
+    height: 10rem;
+}
+
+#search_icon-container {
+	margin-left: 2rem;
+}
+
+header .contact-cart-container {
+    padding-right: 6rem;
+}
+
+.user-icon {
+	margin-right: 2rem;
+}
+
+.hero {
+	min-height: 50rem;
+}
+
+.welcome {
+	text-align: start;
+}
+
+.welcome p:first-child {
+	font-size: var(--md);
+	padding: 1rem;
+	background-color: var(--dark-pink);
+	color: var(--white);
+	border-radius: 0.8rem;
+	width: 23rem;
+	text-align: center;
+}
+
+.welcome h2 {
+	font-size: var(--xxlg);
+}
+
+.hidden-p {
+	display: block;
+	font-size: var(--md);
+	padding-right: 1rem;
+}
+
+.welcome button {
+	width: 12rem;
+	height: 4.2rem;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	border-radius: 2rem;
+	margin-top: 1rem;
+}
+
+.collections {
+	max-width: 60rem;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.collections-container h2 {
+	font-size: var(--xlg);
+}
+
+
+.trends h2 {
+	font-size: var(--xlg);
+}
+
+.trending-products__container {
+	max-width: 60rem;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trending-product {
+	width: 18rem;
+}
+
+.trending-product img {
+	width: 15rem;
+	height: 15rem;
+}
+
+.trending-product p {
+	font-size: var(--sm);
+}
+
+.company-description p {
+	font-size: var(--lg);
+}
+
+footer .social-media__container p {
+	font-size: var(--lg);
+}
+
+footer .social-media__container img {
+	width: 5rem;
+	height: 5rem;
+	/* margin-right: 2rem; */
+}
+
+footer .pay-methods {
+	font-size: var(--lg);
+}
+
+.pay-methods__container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.banesco-logo {
+	width: 8.88rem;
+	height: 6rem;
+}
+
+.binance-logo {
+	width: 8rem;
+	height: 6rem;
+}
+
+.paypal-logo {
+	width: 12rem;
+	height: 6rem;
+}
+
+.pagomovil-logo {
+	width: 6rem;
+	height: 6rem;
+}
+
+.zelle-logo {
+	width: 10.66rem;
+	height: 6rem;
+}

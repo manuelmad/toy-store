@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda de Juguetes Arrurrú">
+    <meta name= "robots" content= "index, follow">
+	<title>Catálogo de juguetes Arrurrú</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./styles/index.css">
+	<link href="./styles/index-tablets.css" media="screen and (min-width: 600px)" type="text/css" rel="stylesheet" />
+    <link href="./styles/index-desktop.css" media="screen and (min-width: 1024px)" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<header class="header">
+        <nav>
+            <div class="container__icono-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                <ul id="menu-desplegable">
+					<li class="first-item">
+						<span id="close_menu_x">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+								<path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+							  </svg>
+						</span>
+					</li>
+                    <li><a id="mobile-home" href="./index.html">INICIO</a></li>
+                    <li><a id="mobile-collections" href="#collections-container">CATEGORÍAS</a></li>
+                    <li><a id="mobile-about" href="#about-us">ACERCA DE</a></li>
+                    <li><a id="mobile-contact" href="#social-media__container">CONTACTO</a></li>
+                </ul>
+            </div>
+            <div id="search_icon-container">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="search_icon" class="bi bi-search search-icon" viewBox="0 0 16 16">
+					<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+				</svg>
+            	<!-- <img id="search_icon" class="search-icon" src="./imgs/search.png"> -->
+        	</div>
+        </nav>
+        <div class="logo-container">
+            <a href="./index.html"><img src="./imgs/logo.png" alt="logo"></a>
+        </div>
+        <div class="contact-cart-container">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person user-icon" viewBox="0 0 16 16">
+				<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+			</svg>
+        	<!-- <img class="user-icon" src="./imgs/user-icon.png">			 -->
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-handbag purse-icon" viewBox="0 0 16 16">
+				<path d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2zm3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6h4z"/>
+			  </svg>
+            <!-- <img class="purse-icon" src="./imgs/big-bag-con-asas.png"> -->
+        </div>
+	</header>
+	<nav class="nav-menu-principal">
+		<div class="container__menu-principal">
+            <ul id="menu-principal">
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="#collections-container">CATEGORÍAS</a></li>
+                <li><a href="#about-us">ACERCA DE</a></li>
+                <li><a href="#social-media__container">CONTACTO</a></li>
+            </ul>
+        </div>   
+	</nav>
+	<main>
+		<section id="search_section">
+			<h2>BÚSQUEDA DE PRODUCTOS</h2>
+			<div class="name_container">
+				<p>
+					<label for="searchByName">Introduzca una palabra clave del nombre del producto</label>
+				</p>
+				<p>
+					<input id="searchByName" type="text" name="">
+				</p>
+			</div>
+			<div class="price_container">
+				<p>
+					<label for="searchByCost_min">Escoja un rango de precio</label>
+				</p>
+				<p>Desde: 
+					$ <input id="searchByCost_min" type="number" name=""> Hasta: 
+					$ <input id="searchByCost_max" type="number" name="">
+				</p>
+				<p class="button-price__container"><button id="price_button">BUSCAR</button></p>
+				<p class="x-container">
+					<span id="close_search">X</span>
+				</p>
+			</div>
+		</section>
+		<section class="hero">
+			<div class="hero-img">
+				<!-- <img src="./imgs/w1_1.png"> -->
+			</div>
+			<div class="welcome">
+				<p>BIENVENIDOS A ARRURRÚ!</p>
+				<h2>Edición Especial</h2>
+				<p class="hidden-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quos molestiae, voluptate sed nihil repellat, necessitatibus voluptatum autem ea amet assumenda quo iure eaque illum at repellendus esse, facere ut?</p>
+				<p>
+					<button>Comprar</button>
+				</p>
+			</div>
+		</section>
+		<section id="collections-container" class="collections-container">
+			<h2>Categorías</h2>
+			<div id="collections" class="collections"></div>
+		</section>
+		<section id="trends" class="trends">
+			<h2>Nos Encantan Las Tendencias <p class="circle"></p></h2>
+			<article id="trending-products__container" class="trending-products__container">
+			</article>
+			<p class="view-all-trends-btn__container">
+				<button id="view-all-trends-btn">VER TODOS</button>
+			</p>
+		</section>
+		<section id="about-us" class="about-us">
+			<div class="logo-footer__container">
+				<img src="./imgs/logo.png" alt="logo">
+			</div>
+			<div id="company-description" class="company-description">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ad ipsum inventore, qui sit quos iste enim fugit sequi est voluptates. Veniam pariatur fugit corporis voluptatibus aperiam, consectetur repellendus nam.</p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div id="social-media__container" class="social-media__container">
+			<p>Visítanos en nuestra redes sociales</p>
+			<p>
+				<a href="#"><img src="./imgs/instagram-logo.png" alt="logo de instagram"></a>
+				<a class="whatsapp-link" href="#"><img src="./imgs/whatsapp-logo.png" alt="logo de whatsapp"></a>
+			</p>
+		</div>
+		<section class="pay-methods">
+			<div>
+				<p>@2023 Arrurrú WebSite</p>
+				<p>Contamos con varios métodos de pago</p>
+				<p class="pay-methods__container">
+					<img class="banesco-logo" src="./imgs/payment-methods/banesco.png" alt="logo de banesco">
+					<img class="binance-logo" src="./imgs/payment-methods/binance.png" alt="logo de binance">
+					<img class="paypal-logo" src="./imgs/payment-methods/paypal.png" alt="logo de paypal">
+					<img class="pagomovil-logo" src="./imgs/payment-methods/telefono-inteligente.png" alt="pgo movil">
+					<img class="zelle-logo" src="./imgs/payment-methods/zelle.png" alt="logo de zelle">
+				</p>
+			</div>
+		</section>
+	</footer>
+
+	<!--<script src="./xlsx.full.min.js"></script>-->
+	<script type="text/javascript" src="./src/database.js"></script>
+	<script type="text/javascript" src="./src/mobileMenu.js"></script>
+	<script type="text/javascript" src="./src/index.js"></script>
+</body>
+</html>
