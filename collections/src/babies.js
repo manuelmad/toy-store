@@ -12,7 +12,7 @@ function babiesRender() {
 		let div = document.createElement("div");
 		div.classList.add("babies-product");
 		div.innerHTML = `
-					<img src=${"."+imagen}>
+					<img src=${/*"."+*/imagen}>
 					<p class="babies-product__name">${name}</p>
 					<p class="babies-product__price">$${price}</p>
 		`;

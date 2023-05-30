@@ -32,7 +32,7 @@ const Kid_Kraft = new Productos({
 	exhibicion: 0,
 	costo: 120,
 	pvp: 150,
-	imgUrl: "./imgs/products/kid-kraft.jpg",
+	imgUrl: "https://live.staticflickr.com/65535/52938842990_f46703e08e_m.jpg",
 });
 console.log('Kid_Kraft', Kid_Kraft);
 
@@ -42,9 +42,9 @@ const Baby_Gym = new Productos({
 	categoria: "Bebés",
 	cantidad: 1,
 	exhibicion: 0,
-	costo: 0,
+	costo: 0, 
 	pvp: 60,
-	imgUrl: "./imgs/products/baby-gym.jpg",
+	imgUrl: "https://live.staticflickr.com/65535/52938457676_b0246f0247_m.jpg",
 	trend: true
 });
 console.log('Baby_Gym', Baby_Gym);
@@ -56,7 +56,7 @@ const Little_People  = new Productos({
 	exhibicion: 0,
 	costo: 60,
 	pvp: 70,
-	imgUrl: "./imgs/products/little-people-big-animal-train.jpg",
+	imgUrl: "https://live.staticflickr.com/65535/52937866617_21df533a1b_m.jpg",
 });
 console.log('Little_People', Little_People);
 
